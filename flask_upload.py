@@ -12,6 +12,3 @@ def uploadfile():
     if file:
         file.save('uploads/' + file.filename)
         return 'File uploaded successfully'
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0')
